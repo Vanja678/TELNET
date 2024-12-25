@@ -1,4 +1,4 @@
-# TELNET
+# TELNET Scanner for Cybersecurity
 A tool for scanning IP addresses and ports – designed for educational purposes in ethical hacking and cybersecurity.
 
 # ⚠️ DISCLAIMER

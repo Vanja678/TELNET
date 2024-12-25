@@ -1,7 +1,4 @@
-# TELNET
-With TELNET you can scan IP addresses on different ports and then even connect to them!
-
-**Disclaimer:**
+# DISCLAIMER
 1. This repository is for educational purposes only.
 2. It is designed to teach ethical hacking and cybersecurity concepts.
 3. The tools and methods provided should only be used in authorized environments.

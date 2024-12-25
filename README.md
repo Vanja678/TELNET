@@ -1,35 +1,51 @@
-# DISCLAIMER
-1. This repository is for educational purposes only.
-2. It is designed to teach ethical hacking and cybersecurity concepts.
-3. The tools and methods provided should only be used in authorized environments.
-4. Unauthorized use of these techniques is illegal and punishable by law.
-5. Always obtain explicit permission before conducting any security tests.
-6. The creator are not responsible for any misuse of the content.
-7. Use these materials responsibly and ethically.
-8. By using this repository, you agree to comply with all applicable laws.
-9. This content aims to enhance defensive security measures, not to harm.
-10. Violations of these terms are solely the user's responsibility.
+# TELNET
+A tool for scanning IP addresses and ports – designed for educational purposes in ethical hacking and cybersecurity.
 
-# What do you need?
-### First you have to activate the Telnet Client on Windows so that the program works without errors.
+# ⚠️ DISCLAIMER
+This repository is for educational purposes only.
+
+The tools and methods provided should only be used in authorized environments.
+
+**Unauthorized use is illegal and punishable by law.**
+
+- Always obtain explicit permission before conducting any security tests.
+- The creator is not responsible for any misuse of the content.
+- This project aims to enhance defensive security measures, not to cause harm.
+
+**By using this repository, you agree to comply with all applicable laws.**
+
+# 🔧 Prerequisites
+### Enabling the Telnet Client on Windows
 1. Open the **Control Panel**.
+   
 2. Click **Programs**.
-3. And then click on **Programs and Features**.
-4. Then in the left side there is a text **Turn Windows features on or off**. Click it.
-5. Click on the Folder named **Telnet Client**.
+   
+3. Select **Programs and Features**.
+   
+4. On the left-hand side, click **Turn Windows features on or off**.
+   
+5. Check the box for **Telnet Client** and confirm.
 
-# Little tutorial to TELNET.exe
+# 📖 Quick Start Guide
+1. **Enter the starting IP** and press Enter.
+2. **Enter the ending IP** and press Enter.
+3. **Select the port** to scan and press Enter.
+4. The program will scan the specified IP range on the selected port.
+5. Select an IP address by entering its number. The response will be saved to a **.txt** file.
+6. Open the Command Prompt **(CMD)** and type:
+   
+   telnet {ip} {port}
 
-Here’s an improved version of your text for better clarity and flow:
+   This may display some output.
+7. If no output is shown:
+- Try entering the IP address in your web browser.
+    
+- Alternatively, use **curl** in CMD:
 
-1. Enter the Start IP and press Enter.
-2. Enter the End IP and press Enter.
-3. Choose the Port you want to scan and press Enter.
-4. The program will then scan the IP addresses on the selected Port.
-5. Select an IP address by entering its number. The program will save the response to a .txt file.
-6. Open CMD and type telnet {ip} {port}. This may display some output.
-7. If the IP address does not show any output in CMD, try entering it in your web browser.
-8. Alternatively, you can use CMD to run curl {ip} to view additional information.
+curl {ip}
+
+# 💡 Note
+This tool is particularly useful for identifying and understanding potential security vulnerabilities. Use it responsibly and with proper authorization.
 
 
 

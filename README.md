@@ -12,10 +12,10 @@
 
 # What do you need?
 ### First you have to activate the Telnet Client on Windows so that the program works without errors.
-**Step 1.** Open the **Control Panel**.
-**Step 2.** Click **Programs**.
-**Step 3.** And then click on **Programs and Features**.
-**Step 4.** Then in the left side there is a text **Turn Windows features on or off**. Click it.
-**Step 5.** Click on the Folder named **Telnet Client**.
+**1.** Open the **Control Panel**.
+**2.** Click **Programs**.
+**3.** And then click on **Programs and Features**.
+**4.** Then in the left side there is a text **Turn Windows features on or off**. Click it.
+**5.** Click on the Folder named **Telnet Client**.
 
 

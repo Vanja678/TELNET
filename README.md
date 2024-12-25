@@ -9,3 +9,7 @@
 8. By using this repository, you agree to comply with all applicable laws.
 9. This content aims to enhance defensive security measures, not to harm.
 10. Violations of these terms are solely the user's responsibility.
+
+# What do you need?
+### First you have to activate the Telnet client on Windows so that the program works without errors.
+Step 1. Open the

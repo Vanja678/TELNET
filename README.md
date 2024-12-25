@@ -18,4 +18,18 @@
 4. Then in the left side there is a text **Turn Windows features on or off**. Click it.
 5. Click on the Folder named **Telnet Client**.
 
+# Little tutorial to TELNET.exe
+
+Here’s an improved version of your text for better clarity and flow:
+
+1. Enter the Start IP and press Enter.
+2. Enter the End IP and press Enter.
+3. Choose the Port you want to scan and press Enter.
+4. The program will then scan the IP addresses on the selected Port.
+5. Select an IP address by entering its number. The program will save the response to a .txt file.
+6. Open CMD and type telnet {ip} {port}. This may display some output.
+7. If the IP address does not show any output in CMD, try entering it in your web browser.
+8. Alternatively, you can use CMD to run curl {ip} to view additional information.
+
+
 

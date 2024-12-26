@@ -42,7 +42,7 @@ The tools and methods provided should only be used in authorized environments.
     
 - Alternatively, use **curl** in CMD:
 
-curl {ip}
+   curl {ip}
 
 # 💡 Note
 This tool is particularly useful for identifying and understanding potential security vulnerabilities. Use it responsibly and with proper authorization.

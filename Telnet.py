@@ -18,8 +18,8 @@ print(Fore.GREEN + "   ╚═╝   ╚══════╝╚══════
 
 def scan_ip(ip, port):
     """
-    Versucht, eine Verbindung zu einer IP-Adresse und einem Port herzustellen.
-    Gibt die IP und den Status (offen oder geschlossen) zurück.
+    Attempts to connect to an IP address and port.
+    Returns the IP and status (open or closed).
     """
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -32,8 +32,8 @@ def scan_ip(ip, port):
 
 def ip_range_scan(start_ip, end_ip, port):
     """
-    Scannt IP-Adressen von start_ip bis end_ip auf einen bestimmten Port.
-    Gibt die Ergebnisse in geordneter Reihenfolge zurück.
+    Scans IP addresses from start_ip to end_ip for a specific port.
+    Returns the results in ordered order.
     """
     def parse_ip(ip):
         # IPs auf vier Segmente erweitern (z. B. 145.03.30 -> 145.03.30.0)
